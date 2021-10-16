@@ -9,7 +9,6 @@ export default function App() {
       <View style={styles.container}>
 
         <TextField text/>
-        
 
         <ConditonalCard error = {true}/>
         <ConditonalCard loading = {true}/>
@@ -38,7 +37,6 @@ const TextField = ({text}) => (
       value = {text}
       style={{ fontSize: 42, color: 'steelblue' }}
       placeholder="Type here..."
-      
     />
   </View>
 
